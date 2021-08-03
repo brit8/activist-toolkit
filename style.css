@@ -1,0 +1,349 @@
+/* STYLE SECTIONING TAGS */
+
+body {
+ background-color: #AABD8C; 
+  
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0em;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Flecha-Regular;
+
+}
+/* STYLE TEXT */
+/*index.html*/
+.main-message{
+  background-image: url(https://npr.brightspotcdn.com/dims4/default/f11fee6/2147483647/strip/true/crop/755x465+23+0/resize/880x542!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkalw%2Ffiles%2F201909%2Fstory_header.jpg);
+}
+
+.main-message, .image-one, .image-two, .image-three, .image-four, .image-five, .image-six{
+  position: relative; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #AABD8C;
+  background-size: cover;
+  min-height: 100%;
+  background-attachment: fixed;
+}
+
+div{
+  display: block;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #E9E3B4;
+  border-style: solid;
+  border-color: #F39B6D;
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-bottom: -15px;
+  top: 20%;
+  right: 20%;
+  left: 20%;
+  position: absolute;
+}
+
+.heading-home{
+  padding-top: -10px;
+  padding-right: -20px;
+  padding-bottom: -10px;
+  padding-left: 200px;
+  color:#F39B6D;
+  text-shadow: 1px 2px 2px #000000;
+  font-size: 55px;
+  letter-spacing: 10px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.intro-text{
+  background-color: #AABD8C;
+  padding: 4%;
+  margin: 3%;
+  color:#ffffff;
+  font-size: 20px;
+  text-shadow: 1px 2px 5px #000000;
+  border-style: groove;
+  border-color:#000000;
+  letter-spacing: 2px;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.text-section{
+  background-color:#F39B6D;
+  padding: 20px 45px;
+    padding-top: 20px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+  margin: 35px;
+  text-align: center;
+}
+
+.que{
+  letter-spacing: 3px;
+  font-size: 35px;
+  font-family: Flecha-Regular;
+  color:#E9E3B4;
+  text-shadow: 1px 2px 2px #000000;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+.que{
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.attributions {
+  font-size: 23px;
+  text-align: right;
+  margin-right: 10px;
+  font-family: Flecha-Regular;
+}
+
+.image-one {
+    background-image: url(https://www.planetizen.com/files/images/Untitled%20design%20%2826%29.jpg);
+}
+
+
+.house{
+  font-family: Flecha-Regular;
+  text-align: center;
+  font-size: 23px;
+}
+
+ul{
+  font-family: Flecha-Regular;
+  text-align:left;
+  font-size: 23px;
+}
+
+.image-two{
+  background-image: url(https://luggageandlaughs.files.wordpress.com/2019/08/snapseed.jpg);
+}
+
+.foto{
+  font-family: Flecha-Regular;
+  text-align: right;
+  font-size: 23px;
+}
+
+
+
+
+
+/*takeaction.html*/
+.image-three{
+  background-image: url(https://d3n8a8pro7vhmx.cloudfront.net/ciclavia/pages/3731/meta_images/original/smaller_HeartofLA_100619_Route-03749.jpg?1607638847);
+}
+
+#contenedor-flexible{
+ display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #E9E3B4;
+  border-style: solid;
+  border-color: #F39B6D;
+  padding-left: 14px;
+  padding-right: 20px;
+  padding-bottom: -15px;
+  top: 30%;
+  right: 30%;
+  left: 30%;
+  position: absolute; 
+  text-align:center;
+}
+
+#hacer{
+  letter-spacing: 3px;
+  font-size: 35px;
+  font-family: Flecha-Regular;
+  color:#E9E3B4;
+  text-shadow: 1px 2px 2px #000000;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+#accion{
+  padding-top: -10px;
+  padding-right: -20px;
+  padding-bottom: -10px;
+  padding-left: 30px;
+  font-family: Flecha-Regular;
+  color: #F39B6D;
+  text-shadow: 1px 2px 2px #000000;
+  font-size: 55px;
+  letter-spacing: 10px;
+  line-height: 60px;
+}
+
+iframe{
+  text-align: center;
+}
+#impacto{
+  font-family: Flecha-Regular;
+  text-align: center;
+  font-size: 25px;
+}
+
+.image-four{
+  background-image: url(https://www.ondeck.ca/wp-content/uploads/2014/12/shutterstock_191611406-1024x678.jpg);
+}
+
+a{
+  font-size: 23px;
+  font-family: Flecha-Regular;
+  text-align: center;
+}
+
+.image-five{
+  background-image: url(https://gentrifiednyc.github.io/g1.jpg);
+}
+
+.image-six{
+  background-image: url(https://media.timeout.com/images/102875459/image.jpg);
+}
+
+/*about me*/
+
+.mi {
+  font-family: Flecha-Regular;
+  text-align: center;
+  color: #F39B6D;
+  text-shadow: 1px 2px 10px #000000;
+  font-size: 55px;
+}
+
+.y{
+  font-family: Flecha-Regular;
+  text-align: center;
+  color: #F39B6D;
+  text-shadow: 1px 2px 10px #000000;
+  font-size: 30px;
+}
+
+.texto{
+  font-family: Flecha-Regular;
+  text-align: center;
+  font-size: 23px;
+
+}
+
+
+/* STYLE IMAGES */
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+#me{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #ffffff;
+}
+
+
+
+#titulo{
+  font-family: Flecha-Regular;
+  text-align: center;
+  color: #F39B6D;
+  text-shadow: 1px 2px 10px #000000;
+  font-size: 55px;
+}
+
+
+#omelet{
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin:4%;
+}
+
+
+
+/* STYLE NAV BAR */
+/*index.html, takeaction.html, about me.html*/
+#guia{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #E9E3B4;
+  text-align:center;
+  padding-left: 380px;
+  padding-right: 320px;
+  border-style: solid;
+  border-color: #F39B6D;
+  margin: 0%;
+  justify-content: space-between;
+}
+
+
+.navegacion{
+  font-family: Flecha-Regular;
+  font-size: 50px;
+  display: inline;
+  
+}
+
+
+.navegacion a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
+  margin: 4%;
+  text-align:center;
+}
+
+.navegacion a:hover {
+  background-color: #F39B6D;
+}
+
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+/* Font face*/
+ @font-face {
+  font-family: Flecha-Right;
+  src: url('Flecha-Right.otf');
+}
+
+@font-face {
+  font-family: Segoe UI;
+  src: url('SEGOEUI.TTF');
+}

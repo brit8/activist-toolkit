@@ -1,0 +1,12 @@
+<span class="accion-pagina" role="img" aria-label="A group of three houses in a row. The house on the left is an apartment complex in brown with a rooftop. The middle light-brown house has a deciduous tree with bouquet(light purple) colored leafs and a small garden in the front. The right house is a gray apartment complex with green undertones.">
+</span>
+
+line 50 in take action.html
+
+in #accion
+  padding-top: -10px;
+  padding-right: -20px;
+  padding-bottom: -10px;
+  padding-left: 200px;
+  letter-spacing: 10px;
+  line-height: 60px;
